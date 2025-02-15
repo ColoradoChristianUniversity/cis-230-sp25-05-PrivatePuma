@@ -14,6 +14,7 @@ public class AddTests
     [Fact]
     public void Add_SingleValue_ReturnsSameValue()
     {
+        // Asserts that 5 is going to be the only thing that is returned when put into the add function
         float result = _calculator.Add(5f);
         Assert.Equal(5f, result);
     }
